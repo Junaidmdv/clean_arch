@@ -19,6 +19,9 @@ func NewBookController(echoCtx *echo.Echo, BookServiceObject intrface.BookServic
 
 }
 
+
+
+
 func (B *BookController) printAuthor(ctx echo.Context) error {
 	
 	return nil
